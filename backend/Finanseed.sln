@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{E3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanseed.Api", "src\services\Finanseed.Api\Finanseed.Api.csproj", "{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "building_blocks", "building_blocks", "{2F2164DB-089A-4203-9CF3-4909E202D9AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanseed.Core", "src\building_blocks\Finanseed.Core\Finanseed.Core.csproj", "{69369A60-9B30-4F6B-B760-19A0828347B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,9 +38,23 @@ Global
 		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Release|x64.Build.0 = Release|Any CPU
 		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Release|x86.ActiveCfg = Release|Any CPU
 		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Release|x86.Build.0 = Release|Any CPU
+		{69369A60-9B30-4F6B-B760-19A0828347B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69369A60-9B30-4F6B-B760-19A0828347B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69369A60-9B30-4F6B-B760-19A0828347B3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{69369A60-9B30-4F6B-B760-19A0828347B3}.Debug|x64.Build.0 = Debug|Any CPU
+		{69369A60-9B30-4F6B-B760-19A0828347B3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{69369A60-9B30-4F6B-B760-19A0828347B3}.Debug|x86.Build.0 = Debug|Any CPU
+		{69369A60-9B30-4F6B-B760-19A0828347B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69369A60-9B30-4F6B-B760-19A0828347B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69369A60-9B30-4F6B-B760-19A0828347B3}.Release|x64.ActiveCfg = Release|Any CPU
+		{69369A60-9B30-4F6B-B760-19A0828347B3}.Release|x64.Build.0 = Release|Any CPU
+		{69369A60-9B30-4F6B-B760-19A0828347B3}.Release|x86.ActiveCfg = Release|Any CPU
+		{69369A60-9B30-4F6B-B760-19A0828347B3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E3D945EB-1433-487F-B72D-1C5F69D77A1E} = {E0934780-B318-4364-A8C1-5F5606453305}
 		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF} = {E3D945EB-1433-487F-B72D-1C5F69D77A1E}
+		{2F2164DB-089A-4203-9CF3-4909E202D9AE} = {E0934780-B318-4364-A8C1-5F5606453305}
+		{69369A60-9B30-4F6B-B760-19A0828347B3} = {2F2164DB-089A-4203-9CF3-4909E202D9AE}
 	EndGlobalSection
 EndGlobal

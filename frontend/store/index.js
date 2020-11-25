@@ -18,7 +18,7 @@ export const state = () => ({
       tags: ['lanche noturno'],
       type: 'Saída'
     },
-    { title: 'fsdfgsdfsadfa', value: 250, date: '2020-11-03', type: 'Entrada', category: 'Educação', tags: ['Lanche', 'Casa', 'Carro'] }
+    { title: 'fsdfgsdfsadfa', value: 250, date: '2020-11-03', type: 'Entrada', parcel: 'Á vista', category: 'Educação', tags: ['Lanche', 'Casa', 'Carro'] }
   ]
 })
 
