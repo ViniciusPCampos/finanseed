@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E0934780-B318-4364-A8C1-5F5606453305}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{E3D945EB-1433-487F-B72D-1C5F69D77A1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanseed.Api", "src\services\Finanseed.Api\Finanseed.Api.csproj", "{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Debug|x64.Build.0 = Debug|Any CPU
+		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Debug|x86.Build.0 = Debug|Any CPU
+		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Release|x64.ActiveCfg = Release|Any CPU
+		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Release|x64.Build.0 = Release|Any CPU
+		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Release|x86.ActiveCfg = Release|Any CPU
+		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3D945EB-1433-487F-B72D-1C5F69D77A1E} = {E0934780-B318-4364-A8C1-5F5606453305}
+		{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF} = {E3D945EB-1433-487F-B72D-1C5F69D77A1E}
+	EndGlobalSection
+EndGlobal
