@@ -13,8 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Repositories" />
     <Folder Include="Models" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\building_blocks\Finanseed.Core\Finanseed.Core.csproj" />
   </ItemGroup>
 
 
