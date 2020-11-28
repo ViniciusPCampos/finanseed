@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{E3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanseed.Api", "src\services\Finanseed.Api\Finanseed.Api.csproj", "{F85E5471-9E7C-45FD-9B49-1EDB36FE07BF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "building_blocks", "building_blocks", "{2F2164DB-089A-4203-9CF3-4909E202D9AE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "building blocks", "building blocks", "{2F2164DB-089A-4203-9CF3-4909E202D9AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanseed.Core", "src\building_blocks\Finanseed.Core\Finanseed.Core.csproj", "{69369A60-9B30-4F6B-B760-19A0828347B3}"
 EndProject

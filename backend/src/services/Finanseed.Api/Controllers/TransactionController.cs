@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 using Finanseed.Api.Data.Entities;
 using Finanseed.Api.Data.Repositories;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Finanseed.Api.Controllers
 {
     [ApiController]
-    public class TransactionController:Controller
+    public class TransactionController : Controller
     {
         private readonly ITransactionRepository _transactionRepository;
 
@@ -16,6 +18,7 @@ namespace Finanseed.Api.Controllers
         }
         
         [HttpGet]
+        [ProducesResponseType(typeof(List<Transaction>), StatusCodes.Status200OK)]
         public ActionResult Get()
         {
             try

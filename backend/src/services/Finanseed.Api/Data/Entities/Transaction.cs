@@ -10,9 +10,15 @@ namespace Finanseed.Api.Data.Entities
         public string Title { get; set; }
         public decimal Value { get; set; }
         public DateTime Date { get; set; }
-        public string Type { get; set; }
-        public string Parcel { get; set; }
-        public string Category { get; set; }
-        public List<string> Tags { get; set; }
+        public int ParcelIndex { get; set; }
+        public Guid ParcelId { get; set; }
+        public Guid CategoryId { get; set; }
+        public EnumTransactionType EnumTransactionType { get; set; }
+        
+        // Relationships
+        
+        public Category Category { get; set; }
+        public Parcel Parcel { get; set; }
+        public List<Tag> Tags { get; set; }
     }
 }

@@ -27,7 +27,7 @@ namespace Finanseed.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddScoped<ITransactionRepository, TransactionRepository>();
+            services.AddTransient<ITransactionRepository, TransactionRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

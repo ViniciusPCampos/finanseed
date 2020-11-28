@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  sqlServer:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    env_file:
+      - "./envionments/sqlServer.env"
+    ports:
+      - "1433:1433"
